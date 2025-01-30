@@ -1,4 +1,9 @@
-const iceCream = { vanilla, strawberry, coffee };
+const key = prompt("Welcome! Please, enter list of ice cream flavors.");
 
-const key = prompt("Welcome! Please, enter list of ice cream flavors");
-console.log(key, flavors[key]);
+let flavors = "vanilla,strawberry,coffee";
+const froyo = flavors.split(",");
+console.log(flavors);
+
+for (let f of froyo) {
+  console.log(f);
+}
